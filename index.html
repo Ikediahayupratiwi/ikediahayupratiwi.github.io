@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaga Boemi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="UTS.css"/>
+    <script src="UTS.js"></script>
+</head>
+<body>
+  <!-- navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Jaga Boemi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- home -->
+      <div class="container-fluid banner">
+          <div class="container text-center">
+            <div class="w3-container">
+              <img src="img/9.png" class="w3-circle" alt="Norway" style="width:15%">
+            </div>
+              <h4 class="display-6">Find Your Eco-Friendly Stuffs In</h4>
+              <h3 class="display-1">Jagaboemi</h3>
+              <div class="login-content">
+                <form action="index.html">
+                  <div class="input-div one">
+                    <div class="i">
+                      <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                      <h5>E-mail</h5>
+                      <input type="text" class="input" id="email">
+                    </div>
+                  </div>
+                  <div class="input-div pass">
+                    <div class="i"> 
+                      <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                      <h5>Password</h5>
+                      <input type="password" class="input" id="password">
+                    </div>
+                  </div>
+                  <div>
+                    <button onclick="checkForm()">Log in</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- about -->
+      <div class="container-fluid home pt-5 pb-5">
+          <div class="container">
+              <h2 class="display-3 text-center" id="home">About</h2>
+              <p class="text-center">
+                Mengapa kita harus Jagaboemi?
+                </p>
+                <div class="clearfix pt-5"><img src="img/12.jpg" class="col-md-6 float-md-end mb-3 crop-img" width="300" height="300"/>
+                <p>Alasan terbesar yang sangat berdampak bagi seluruh manusia di bumi adalah sudah terjadinya krisis iklim. 
+                  Beberapa tahun belakangan ini cuaca mulai tidak teratur, suhu bumi mengingkat, terjadi bencana alam dimana-mana, dan masih banyak lagi. Semua itu adalah dampak dari krisis iklim.</p>
+                <p>Bagaimana cara kita untuk mencegahnya? Kita tidak bisa mencegahnya karena semua itu sudah terjadi, akan tetapi kita bisa berusaha untuk tidak memperburuk keadaan.
+                  Salah satu penyebab dari krisis iklim adalah sampah, terutama sampah plastik. Karena sejak proses produksi hingga tahap pembuangan dan pengelolaan, sampah plastik mengemisikan banyak gas rumah kaca ke atmosfer.</p>
+                <p>Plastik adalah bahan utama yang paling sering digunakan dalam kehidupan sehari-hari, sehingga dalam sehari sepertinya kita tidak mungkin jika tidak menggunakan plastik. Bukan berarti kita bisa menggunakan plastik dengan seenaknya. Kita harus lebih bijak dalam menggunakan plastik.
+                  Kantong plastik adalah barang yang hampir setiap hari kita gunakan. Belanja ke pasar kita terkadang diberi kantong plastik oleh penjualnya, membeli barang/sesuatu di mall kita juga diberi kantong plastik, membeli makanan pun menggunakan plastik.</p>
+                <p>Salah satu upaya untuk mengurangi penggunaan kantong plastik adalah dengan menggantinya menggunakan tas ramah lingkungan.
+                  Nahh, Jagaboemi punya solusinya.  Tas ramah lingkungan dengan design nya yang elegan membuat tas ini cocok untuk dipakai kemana saja.</p>
+                </div>
+          </div>
+      </div>
+      <!-- product -->
+      <div class="container-fluid home pt-5 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-3" id="product">Product</h2>
+            <p>Lihat Koleksi Jagaboemi</p>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/10.jpeg" class="card-img-top" alt="10" width="100" height="450">
+                          <div class="card-body">
+                            <h5 class="card-title">Reusable Grocery Bag</h5>
+                            <p class="card-text">Reusable Grocery Bag digunakan sebagai pengganti kantong plastik sekali pakai. Sesuai dengan namanya, Reusable Grocery Bag ini dapat digunakan untuk belanja. Bahannya yang kuat sehingga bisa memuat beban hingga 5kg. Kelebihan dari Reusable Grocery Bag adalah bisa digunakan berkali-kali tanpa harus merusak lingkungan.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                      <img src="img/1re.jpg" class="card-img-top" alt="1re" width="100" height="450">
+                      <div class="card-body">
+                        <h5 class="card-title">Embro Totebag</h5>
+                        <p class="card-text">Embro Totebag dibuat dengan bahan yang kuat sehingga dapat menampung beban hingga 5kg. Dengan motif embroidery nya yang membuatnya semakin elegan. Selain itu Embro Totebag cocok untuk digunakan kemana saja.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/11.jpeg" class="card-img-top" alt="11" width="100" height="450">
+                          <div class="card-body">
+                            <h5 class="card-title">Net Bag</h5>
+                            <p class="card-text">Net Bag digunakan untuk menyimpan bumbu-bumbu dapur, seperti bawang merah, bawang putih, cabai, sereh, rempah-rempah, dan lain-lain. Net Bag bisa menggantikan penggunaan kantong plastik yang biasa digunakan untuk menyimpan perbumbuan di dapur. Selain bisa mengurangi penggunaan plastik, Net Bag dibuat dengan desain yang menarik sehingga terlihat lebih aesthetic.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="container-fluid pt-5 pb-5 contact">
+      <div class="container">
+        <h2 class="display-3 text-center" id="contact">Contact</h2>
+        <p class="text-center">
+          Kontak kami untuk informasi lebih lanjut
+        </p>
+          <div class="row pb-3">
+            <div class="col-md-6">
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama" id="nama"/>
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="E-mail" id="email"/>
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="No. Handphone" id="nohandphone"/>
+            </div>
+            <div class="col-md-6">
+              <textarea class="form-control form-control-lg" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto text-center">
+            <button onclick="checkForm()" type="button" class="btn btn-light btn-lg">Kirim Pesan</button>
+          </div>
+        </div>
+      </div>
+    <div class="container text-center pt-5 pb-5">
+      Jagaboemi &copy; 2021
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="UTS.js"></script>
+    <script src="UTS.js"></script>
+</body>
+</html>
